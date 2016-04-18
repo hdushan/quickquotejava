@@ -1,5 +1,5 @@
-quickquote
-==========
+quickquotejava
+==============
 
 A basic Java test framework for the Sydney Testers Insurance App.
 
@@ -13,3 +13,7 @@ http://sydneytesters.herokuapp.com/
 2. java
 3. firefox
 4. chrome
+5. Maven
+
+####To run tests:
+Run the command `mvn install` or `mvn test`

@@ -23,8 +23,8 @@ public class StepDefs {
 
     @Before
     public void beforeScenario() {
-        //driver = new FirefoxDriver();
-        driver = new ChromeDriver();
+        driver = new FirefoxDriver();
+        //driver = new ChromeDriver();
         wait = new WebDriverWait(driver, 10);
     }
 
